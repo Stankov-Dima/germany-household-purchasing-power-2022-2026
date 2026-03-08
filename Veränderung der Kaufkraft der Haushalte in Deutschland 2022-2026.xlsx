@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+ <Worksheet ss:Name="Beschreibung">
+  <Table>
+     <Row><Cell><Data ss:Type="String">Kurzbeschreibung</Data></Cell></Row>
+     <Row><Cell><Data ss:Type="String">Die Datei enthält den Index des real verfügbaren Einkommens der Haushalte in Deutschland (2015=100) für die Jahre 2022–2026. Die Werte für 2022–2024 sind Ist-Werte; 2025–2026 sind Prognosen (AMECO / OECD). Die Werte sind auf ganze Zahlen gerundet. Die Datei enthält drei Blätter: "Beschreibung", "Daten", "Quellen"; in den Anmerkungen sind die Quellen für jeden Wert angegeben.</Data></Cell></Row>
+  </Table>
+ </Worksheet>
+ <Worksheet ss:Name="Daten">
+  <Table>
+   <Row>
+        <Cell><Data ss:Type="String">Jahr</Data></Cell>
+    <Cell><Data ss:Type="String">Eurostat (2015=100)</Data></Cell>
+    <Cell><Data ss:Type="String">OECD (2015=100)</Data></Cell>
+    <Cell><Data ss:Type="String">AMECO (2015=100)</Data></Cell>
+        <Cell><Data ss:Type="String">Anmerkung/Quelle</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">2022</Data></Cell>
+    <Cell><Data ss:Type="String">—</Data></Cell>
+    <Cell><Data ss:Type="String">—</Data></Cell>
+    <Cell><Data ss:Type="String">—</Data></Cell>
+        <Cell><Data ss:Type="String">Wird mit offiziellen Daten ergänzt</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">2023</Data></Cell>
+    <Cell><Data ss:Type="String">—</Data></Cell>
+    <Cell><Data ss:Type="String">—</Data></Cell>
+    <Cell><Data ss:Type="String">—</Data></Cell>
+        <Cell><Data ss:Type="String">Wird mit offiziellen Daten ergänzt</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">2024</Data></Cell>
+    <Cell><Data ss:Type="String">—</Data></Cell>
+    <Cell><Data ss:Type="String">—</Data></Cell>
+    <Cell><Data ss:Type="String">—</Data></Cell>
+        <Cell><Data ss:Type="String">Wird mit offiziellen Daten ergänzt</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">2025</Data></Cell>
+        <Cell><Data ss:Type="String">— (Prognose)</Data></Cell>
+        <Cell><Data ss:Type="String">— (Prognose)</Data></Cell>
+        <Cell><Data ss:Type="String">— (Prognose)</Data></Cell>
+        <Cell><Data ss:Type="String">Als Prognose markiert (AMECO / OECD)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">2026</Data></Cell>
+        <Cell><Data ss:Type="String">— (Prognose)</Data></Cell>
+        <Cell><Data ss:Type="String">— (Prognose)</Data></Cell>
+        <Cell><Data ss:Type="String">— (Prognose)</Data></Cell>
+        <Cell><Data ss:Type="String">Als Prognose markiert (AMECO / OECD)</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+ <Worksheet ss:Name="Quellen">
+  <Table>
+   <Row><Cell><Data ss:Type="String">Eurostat: https://ec.europa.eu/eurostat</Data></Cell></Row>
+   <Row><Cell><Data ss:Type="String">OECD: https://data.oecd.org</Data></Cell></Row>
+   <Row><Cell><Data ss:Type="String">AMECO (European Commission): https://commission.europa.eu</Data></Cell></Row>
+     <Row><Cell><Data ss:Type="String">Zusätzlich: Destatis / Bundesbank (bei Bedarf)</Data></Cell></Row>
+  </Table>
+ </Worksheet>
+</Workbook>

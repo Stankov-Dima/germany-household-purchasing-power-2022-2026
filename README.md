@@ -5,7 +5,7 @@ This repository contains a Jupyter Notebook analysis of household purchasing pow
 ## Contents
 
 - `Germany_household_purchasing_power_analysis.ipynb`: notebook for loading, cleaning, validating, and visualizing the data.
-- `Изменение покупательской способности домохозяйств в Германии 2022-2026.xlsx`: source workbook with the raw table.
+- `Veränderung der Kaufkraft der Haushalte in Deutschland 2022-2026.xlsx`: source workbook with the raw table.
 - `sync-repo.ps1`: PowerShell helper script for daily pull, commit, and push workflow.
 
 ## What The Notebook Does
